@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Nath Speaks — Aulas de Inglês Online</title>
+  <meta name="description" content="Aprenda inglês com aulas personalizadas online. Aula experimental gratuita e módulos para adultos e ambiente corporativo.">
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:'Inter',Arial,sans-serif;color:#1b1b1b;background-color:#fff;line-height:1.6}
+    header{background:#fff;border-bottom:1px solid #eee;position:sticky;top:0;z-index:1000}
+    .container{max-width:1200px;margin:0 auto;padding:20px}
+    .nav{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap}
+    .logo{display:flex;align-items:center;gap:12px}
+    .logo img{height:60px;width:60px;border-radius:50%;object-fit:cover}
+    .logo span{font-size:1.4rem;font-weight:700;color:#1b1b1b}
+    nav{display:flex;gap:20px;flex-wrap:wrap}
+    nav a{text-decoration:none;color:#333;font-weight:500;transition:color .2s}
+    nav a:hover{color:#ff6b00}
+    .hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));align-items:center;gap:30px;padding:60px 0;background:linear-gradient(90deg,#fff,#f4f7fb)}
+    .hero-text h2{font-size:2.4rem;font-weight:700;color:#1b1b1b;margin-bottom:15px}
+    .hero-text p{font-size:1.1rem;margin-bottom:20px;color:#444}
+    .btn-primary{background-color:#ff6b00;color:#fff;padding:12px 24px;border-radius:6px;text-decoration:none;font-weight:600;border:none;cursor:pointer;transition:background .2s;display:inline-block;margin-top:10px}
+    .btn-primary:hover{background-color:#e25f00}
+    .hero img{width:100%;border-radius:12px;object-fit:cover}
+    section{padding:60px 0;border-bottom:1px solid #f0f0f0}
+    section h3{text-align:center;font-size:1.8rem;color:#1b1b1b;margin-bottom:20px}
+    .features{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;text-align:center}
+    .feature{padding:20px;border-radius:8px;background:#fafafa;transition:transform .2s}
+    .feature:hover{transform:translateY(-4px)}
+    .feature h4{color:#ff6b00;margin-bottom:10px}
+
+    /* Valores em cards */
+    .price-section{background:#fff;text-align:center;padding:60px 20px}
+    .price-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;max-width:900px;margin:0 auto}
+    .card{background:#fafafa;border:2px solid #ff6b00;border-radius:12px;padding:30px;transition:transform .2s}
+    .card:hover{transform:translateY(-5px)}
+    .card h4{color:#ff6b00;font-size:1.8rem;margin-bottom:10px}
+    .card p{color:#444;font-size:1rem;margin-bottom:10px}
+
+    .testimonials{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+    .testimonial{background:#fff;border:1px solid #eee;border-radius:8px;padding:20px}
+    .testimonial p{font-style:italic;color:#555}
+
+    footer{background:#1b1b1b;color:#fff;text-align:center;padding:30px 0;font-size:0.9rem}
+
+    .agendamento iframe{width:100%;height:600px;border:0;border-radius:10px}
+
+    @media(max-width:768px){
+      .hero-text h2{font-size:1.8rem}
+      nav{justify-content:center;margin-top:10px}
+      .logo img{height:50px;width:50px}
+      .logo span{font-size:1.2rem}
+      .price-cards{grid-template-columns:1fr}
+      section{padding:40px 15px}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="logo">
+        <img src="/mnt/data/20251020_1214_Logo Professora Natalia_simple_compose_01k812x4tpft6sfy9hdadxa03f.png" alt="Logo Nath Speaks">
+        <span>Nath Speaks</span>
+      </div>
+      <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#modulos">Módulos</a>
+        <a href="#valores">Valores</a>
+        <a href="#agendamento">Agendamento</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-text">
+      <h2>Aprenda inglês de forma leve, prática e eficiente</h2>
+      <p>Aulas particulares online adaptadas ao seu ritmo, com foco em conversação e aplicação no dia a dia e no ambiente corporativo.</p>
+      <a href="#agendamento" class="btn-primary">Agende sua Aula Experimental Grátis</a>
+    </div>
+    <div class="container">
+      <img src="https://images.unsplash.com/photo-1584697964403-7e1a04a1b9c3?q=80&w=1000&auto=format&fit=crop" alt="Estudando inglês online">
+    </div>
+  </section>
+
+  <section id="sobre">
+    <div class="container">
+      <h3>Sobre as Aulas</h3>
+      <div class="features">
+        <div class="feature">
+          <h4>100% Online</h4>
+          <p>Aulas via Zoom ou Google Meet, com horários flexíveis e materiais personalizados.</p>
+        </div>
+        <div class="feature">
+          <h4>Foco na Conversação</h4>
+          <p>Aprenda com situações reais, atividades dinâmicas e diálogo guiado.</p>
+        </div>
+        <div class="feature">
+          <h4>Metodologia Personalizada</h4>
+          <p>Planejamento individual conforme seu objetivo — viagens, trabalho ou fluência.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="modulos">
+    <div class="container">
+      <h3>Módulos Disponíveis</h3>
+      <div class="features">
+        <div class="feature">
+          <h4>Inglês Técnico Corporativo</h4>
+          <p>Para profissionais que desejam se destacar em contextos de trabalho, reuniões, apresentações e comunicações internacionais.</p>
+        </div>
+        <div class="feature">
+          <h4>Inglês para Adultos</h4>
+          <p>Voltado a quem quer aprender inglês para uso pessoal, viagens e conversação no cotidiano.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="valores" class="price-section">
+    <h3>Valores</h3>
+    <div class="price-cards">
+      <div class="card">
+        <h4>R$ 50 / hora</h4>
+        <p>Aulas particulares personalizadas para atender seus objetivos e ritmo.</p>
+      </div>
+      <div class="card">
+        <h4>Grátis</h4>
+        <p>Aula experimental sem custo para conhecer a metodologia e testar a experiência.</p>
+      </div>
+    </div>
+    <a href="#agendamento" class="btn-primary">Agendar Agora</a>
+  </section>
+
+  <section id="agendamento">
+    <div class="container">
+      <h3>Agende sua Aula</h3>
+      <p style="text-align:center;margin-bottom:20px;">Escolha o melhor horário diretamente pelo Google Agenda:</p>
+      <div class="agendamento">
+        <iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ4Yz-EXEMPLO-LINK" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section id="depoimentos">
+    <div class="container">
+      <h3>O que os alunos dizem</h3>
+      <div class="testimonials">
+        <div class="testimonial">
+          <p>“As aulas com a Nath são incríveis! Aprendi a falar inglês sem medo.”</p>
+          <strong>— João, aluno</strong>
+        </div>
+        <div class="testimonial">
+          <p>“Metodologia leve e divertida. Sinto que evoluí muito!”</p>
+          <strong>— Mariana, iniciante</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <div class="container" style="text-align:center">
+      <h3>Entre em Contato</h3>
+      <p>Agende sua aula experimental gratuita ou tire suas dúvidas pelo WhatsApp.</p>
+      <div style="margin-top:20px;">
+        <a href="https://wa.me/5511912345678?text=Olá! Quero agendar minha aula experimental." class="btn-primary">Falar no WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © <span id="year"></span> Nath Speaks — Aulas de Inglês Online
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
